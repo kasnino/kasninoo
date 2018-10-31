@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url("font-awesome.min.css");
+
+* {
+  margin: 0;
+   padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+ }
+
+
+
+
+	body {
+		color: #fff;
+			font-family: 'Playfair Display', serif;
+		font-size: 15pt;
+		font-weight: 300 !important;
+		letter-spacing: -0.025em;
+		line-height: 1.75em;
+
+	}
+
+
+
+	@-webkit-keyframes wrapper {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+
+	#wrapper {
+		-moz-animation: wrapper 3s forwards;
+		-webkit-animation: wrapper 3s forwards;
+		-ms-animation: wrapper 3s forwards;
+		animation: wrapper 3s forwards;
+		height: 100%;
+		left: 0;
+		opacity: 0;
+		position: fixed;
+		top: 0;
+		width: 100%;
+
+	}
+
+	#bg {
+		
+ 		
+		background: #348cb2 url("../css/images/pexels-photo-129208.jpeg") bottom left;
+		background-repeat: repeat-x;
+		height: 100%;
+		left: 0;
+		opacity: 1;
+	
+		top: 0;
+
+	}
+
+
+	#header h1 {
+			font-size: 4.35em;
+			font-weight: 900;
+			letter-spacing: -0.035em;
+			line-height: 1em;
+			vertical-align: center;
+		}
+
+	#header p {
+			font-size: 1.25em;
+			margin: 0.75em 0 0.25em 0;
+			opacity: 0.75;
+		}
+    #header nav {
+			margin: 1.5em 0 0 0;
+		}
+
+		
+	#header nav li {
+			
+				display: inline-block;
+				height: 5.35em;
+				line-height: 5.885em;
+				
+				position: relative;
+				top: 0;
+				width: 5.35em;
+			}
+#main {
+	    padding: 100px;
+		height: 100%;
+		left: 0;
+		position: fixed;
+		text-align: center;
+		top: 0;
+		width: 100%;
+		overflow-y: scroll;
+
+	}
+
+section {
+
+	text-align: center;
+
+}
+
+.avatar{
+
+	width: 200px;
+	height: 200px;
+	display: inline-flex;
+	border: 5px solid #FFF;
+	border-radius: 50%;
+	box-shadow: 0 5px 12px #FFF;
+	
+
+}
+
+.a{
+background: #348cb2 url("../css/images/kasnino.png");
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.fab {
+	color: white;
+}
