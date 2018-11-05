@@ -176,10 +176,14 @@ background-repeat: no-repeat;
 			.navbar .navbar-brand .navbar-item, .navbar-tabs .navbar-item{
 				    position: absolute;
 			}
-.texto{
+			.texto{
 			
 			 text-align: right;
-		}
+			}
+
+			ul li {
+				font-size: 10pt;
+			}
 
 		/* BG */
 
@@ -202,10 +206,13 @@ background-repeat: no-repeat;
 	
 				    position: absolute;
 			}
-.texto{
-		
+			.texto{
+			
 			 text-align: right;
-		}
+			}
+			ul li {
+				font-size: 10pt;
+			}
 		/* BG */
 
 }
@@ -230,6 +237,9 @@ background-repeat: no-repeat;
 			 text-align: right;
 		}
 		/* BG */
+		ul li {
+				font-size: 10pt;
+			}
 
 }
 
