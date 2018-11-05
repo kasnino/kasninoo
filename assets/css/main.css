@@ -11,11 +11,32 @@
  }
 
 
+.logo{
 
+	  border-radius: 50%;
+  text-align: right;
+  margin-right: 8px;
+}
+.text-primary{
+	color: #ffffff;
+	text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
 
+.navbar {
+    background-color: #FFEB3B;
+    min-height: 100%;
+    min-width: 25%;
+    position: absolute;
+    z-index: 30;
+}
 	body {
+
+		 font-family: 'Saira Extra Condensed';
+  font-style: normal;
+  font-weight: 100;
+
 		color: #fff;
-			font-family: 'Playfair Display', serif;
+	
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
@@ -70,15 +91,18 @@
 			letter-spacing: -0.035em;
 			line-height: 1em;
 			vertical-align: center;
+			    text-align: right;
 		}
 
 	#header p {
 			font-size: 1.25em;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
+			text-align: right;
 		}
     #header nav {
 			margin: 1.5em 0 0 0;
+			text-align: right;
 		}
 
 		
@@ -146,17 +170,61 @@ background-repeat: no-repeat;
 				font-size: 11pt;
 			}
 
+			.navbar .navbar-brand .navbar-item, .navbar-tabs .navbar-item{
+				    position: absolute;
+			}
+
 		/* BG */
 
 }
 
 	
 
+@media screen and (max-width: 568px) {
+
+		/* Basic */
+
+			body {
+				min-width: 220px;
+			}
+
+			body, input, select, textarea {
+				font-size: 8pt;
+			}
+			.navbar .navbar-brand .navbar-item, .navbar-tabs .navbar-item{
+	
+				    position: absolute;
+			}
+
+		/* BG */
+
+}
 
 
+@media screen and (max-width: 768px) {
+
+		/* Basic */
+
+			body {
+				min-width: 1024px;
+			}
+
+			body, input, select, textarea {
+				font-size: 8pt;
+			}
+			.navbar .navbar-brand .navbar-item, .navbar-tabs .navbar-item{
+	
+				    position: absolute;
+			}
+
+		/* BG */
+
+}
 
 
-
+.footer{
+	text-align: right;
+}
 
 	/* Header */
 
