@@ -184,6 +184,10 @@ background-repeat: no-repeat;
 			ul li {
 				font-size: 10pt;
 			}
+			.iconos{
+					font-size: 1pt;
+    text-align: center;
+			}
 
 		/* BG */
 
@@ -214,6 +218,10 @@ background-repeat: no-repeat;
 				font-size: 10pt;
 			}
 		/* BG */
+		.iconos{
+					font-size: 1pt;
+    text-align: center;
+			}
 
 }
 
@@ -239,6 +247,10 @@ background-repeat: no-repeat;
 		/* BG */
 		ul li {
 				font-size: 10pt;
+			}
+			.iconos{
+				font-size: 1pt;
+    text-align: center;
 			}
 
 }
