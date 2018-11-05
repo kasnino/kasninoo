@@ -157,6 +157,9 @@ background-repeat: no-repeat;
 	color: white;
 }
 
+.texto{
+	text-align: right;
+}
 
 @media screen and (max-width: 736px) {
 
@@ -173,6 +176,10 @@ background-repeat: no-repeat;
 			.navbar .navbar-brand .navbar-item, .navbar-tabs .navbar-item{
 				    position: absolute;
 			}
+.texto{
+			
+			 text-align: right;
+		}
 
 		/* BG */
 
@@ -195,7 +202,10 @@ background-repeat: no-repeat;
 	
 				    position: absolute;
 			}
-
+.texto{
+		
+			 text-align: right;
+		}
 		/* BG */
 
 }
@@ -216,7 +226,9 @@ background-repeat: no-repeat;
 	
 				    position: absolute;
 			}
-
+.texto{
+			 text-align: right;
+		}
 		/* BG */
 
 }
